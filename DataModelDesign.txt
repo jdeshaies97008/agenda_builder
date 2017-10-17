@@ -1,0 +1,40 @@
+TM Scheduler and Agenda Builder App - September 2017
+
+Data Model Tier / Backend (DB / CSV):
+
+Member:
+-id				(int)
+-name			(String)
+-since			(int)
+-awards 		{Awards}
+-notAvailable[] (Date)		[zero or more]
+-active			(boolean)
+
+Roles:
+-toastmaster		(Role)
+-speaker[]			(Role)	[one or more]
+-generalEvaluator	(Role)
+-evaluator[]		(Role)	[one or more]
+-grammarian			(Role)
+-timer				(Role)
+-squawker			(Role)
+-umCounter			(Role)
+-tableTopicMaster	(Role)
+-humorMaster		(Role)
+
+Role:
+-roleName		(String)
+-memberName		(String)
+-date			(Date)
+-class			(Enum)	[beginner, intermediate, advanced]
+
+Meeting:
+-theme		(String)
+-date		(Date)
+-roles		(Roles)
+
+Awards:
+-CC			(boolean)
+-CL			(boolean)
+-DTM		(boolean)
+-Pathways	(* - TBD)
