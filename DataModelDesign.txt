@@ -12,9 +12,11 @@ Member:
 
 Roles:
 -toastmaster		(Role)
--speaker[]			(Role)	[one or more]
+-speaker[1]			(Role)	[one or more]
+-speaker[2]			(Role)	[one or more]
 -generalEvaluator	(Role)
--evaluator[]		(Role)	[one or more]
+-evaluator[1]		(Role)	[one or more]
+-evaluator[2]		(Role)	[one or more]
 -grammarian			(Role)
 -timer				(Role)
 -squawker			(Role)
