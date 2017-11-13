@@ -14,7 +14,7 @@ public class Members {
     
     public Members ()
     {
-        names = new String [] {"John","Jane","Henry","Mary","Steve","Tom","Hilary","Jennifer","Mandi","Chris","Kristin","Dave","David","JP","Mandi","TBD"};
+        names = new String [] {"Bret","Wayne","Morgan","Scott","Steve","Tom","Hilary","Jennifer","Chris","Kristin","Dave","David","JP","Mandi","TBD"};
     }
     
     public String [] getMemberList()
