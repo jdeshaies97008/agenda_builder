@@ -17,5 +17,5 @@ Medium duty roles are TableTopics Master, Grammarian, Humor Master, One Minute T
 
 Readability of the application can be modified in export to .csv with x and y switching to be able to paste into our current platform of GoogleDocs which happens to be names on the left, dates across the top and roles supplied in the grid.
 
-J.P. DeShaes, Senior Software Engineer
+J.P. DeShaies, Senior Software Engineer
 Kristin Webb-Tomson, Project Manager
